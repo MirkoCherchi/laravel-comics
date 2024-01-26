@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    <div class="container py-5">
-        <h1 class="text-center">Laravel Template</h1>
-    </div>
 
     {{-- Insert code images <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
 </body>
