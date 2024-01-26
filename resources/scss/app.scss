@@ -1,2 +1,48 @@
 @import "~bootstrap/scss/bootstrap";
 
+li{
+    list-style: none;
+}
+
+.header-top{
+    background-color: #0282f9;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+
+    .header-mini{
+        font-size: 13px;
+        select{
+            text-transform: uppercase;
+            background-color: #0282f9;
+            border: none;
+            color: #fff;
+            font-size: 13px;
+        }
+    }
+
+}
+
+.header-bottom{
+    padding: 20px 0;
+
+
+    .header-big{
+        text-transform: uppercase;
+        
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Stile per l'opzione selezionata */
+
+  
+
+        select{
+            text-transform: uppercase;
+            border: none;
+            color: #000;
+        }
+    }
+}
