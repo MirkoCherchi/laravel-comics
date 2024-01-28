@@ -14,32 +14,27 @@
         </div>
     </div>
     <div class="header-bottom">
-        <div class="header-big d-flex gap-5 align-items-center container">
+        <div class="header-big d-flex justify-content-between align-items-center container">
             <div class="h-bottom-left"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=""></div>
             <div class="h-bottom-list">
-                <ul class="d-flex gap-5 m-0">
-                    <li><a href="">Characters</a></li>
-                    <li><a href="">Comics</a></li>
-                    <li><a href="">Movies</a></li>
-                    <li><a href="">Tv</a></li>
-                    <li><a href="">Games</a></li>
-                    <li><a href="">Collectibles</a></li>
-                    <li><a href="">Videos</a></li>
-                    <li><a href="">Fans</a></li>
-                    <li><a href="">News</a></li>
-                    <li><select>
+                <ul class="d-flex m-0">
+                    <li class="mc-padding-left"><a href="">Characters</a></li>
+                    <li class="mc-padding-left"><a href="">Comics</a></li>
+                    <li class="mc-padding-left"><a href="">Movies</a></li>
+                    <li class="mc-padding-left"><a href="">Tv</a></li>
+                    <li class="mc-padding-left"><a href="">Games</a></li>
+                    <li class="mc-padding-left"><a href="">Collectibles</a></li>
+                    <li class="mc-padding-left"><a href="">Videos</a></li>
+                    <li class="mc-padding-left"><a href="">Fans</a></li>
+                    <li class="mc-padding-left"><a href="">News</a></li>
+                    <li class="mc-padding-left"><select>
                             <option selected class="selected">Shop</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select></li>
-                    <li>
-                        <input type="text" placeholder="search">
-                    </li>
                 </ul>
             </div>
-
-
         </div>
     </div>
 </header>

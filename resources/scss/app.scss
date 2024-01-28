@@ -34,10 +34,9 @@ li{
             text-decoration: none;
             color: #000;
         }
-
-        /* Stile per l'opzione selezionata */
-
-  
+        .mc-padding-left{
+            padding-left: 45px;
+        }
 
         select{
             text-transform: uppercase;
@@ -45,4 +44,132 @@ li{
             color: #000;
         }
     }
+}
+
+.main-top {
+    background-color: #1c1c1c;
+
+    .container {
+        position: relative;
+
+        .button-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+
+            button {
+                all: unset;
+                background-color: #0282F9;
+                text-transform: uppercase;
+                color: #fff;
+                padding: 10px 70px;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    h3 {
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(15px, -50%);
+        font-size: 1.5rem;
+        z-index: 1;
+        background-color: #0282F9;
+    }
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 12px;
+    max-width: 1280px;
+    padding: 0 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+    li {
+        list-style: none;
+    }
+}
+.pic-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.comic-title {
+    text-decoration: none;
+    font-size: 13px;
+
+    h5 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+}
+
+.cards {
+    background-color: #0282f9;
+
+    img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .list-card {
+        display: flex;
+        
+        justify-content: space-between;
+        padding: 45px;
+        gap: 60px;
+        padding-left: 40px;
+        text-transform: uppercase;
+
+    }
+
+    a {
+        display: flex;
+        height: 100%;
+        gap: 15px;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+
+        p{
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        
+
+    }
+
+
 }
