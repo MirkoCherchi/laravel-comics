@@ -1,18 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 
-li{
+li {
     list-style: none;
 }
 
-.header-top{
+.header-top {
     background-color: #0282f9;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 0;
 
-    .header-mini{
+    .header-mini {
         font-size: 13px;
-        select{
+
+        select {
             text-transform: uppercase;
             background-color: #0282f9;
             border: none;
@@ -20,25 +21,24 @@ li{
             font-size: 13px;
         }
     }
-
 }
 
-.header-bottom{
+.header-bottom {
     padding: 20px 0;
 
-
-    .header-big{
+    .header-big {
         text-transform: uppercase;
-        
-        a{
+
+        a {
             text-decoration: none;
             color: #000;
         }
-        .mc-padding-left{
+
+        .mc-padding-left {
             padding-left: 45px;
         }
 
-        select{
+        select {
             text-transform: uppercase;
             border: none;
             color: #000;
@@ -60,11 +60,12 @@ li{
 
             button {
                 all: unset;
-                background-color: #0282F9;
+                background-color: #0282f9;
                 text-transform: uppercase;
                 color: #fff;
                 padding: 10px 70px;
                 font-size: 1rem;
+                cursor: pointer;
             }
         }
     }
@@ -79,9 +80,10 @@ li{
         transform: translate(15px, -50%);
         font-size: 1.5rem;
         z-index: 1;
-        background-color: #0282F9;
+        background-color: #0282f9;
     }
 }
+
 .wrap {
     display: flex;
     flex-direction: column;
@@ -102,6 +104,7 @@ li{
         list-style: none;
     }
 }
+
 .pic-container {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -113,21 +116,19 @@ li{
     }
 }
 
-
 .comic-title {
     text-decoration: none;
     font-size: 13px;
 
     h5 {
         color: white;
-        font-family: 'Open Sans', sans-serif;
+        font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-weight: 400;
         margin-top: 20px;
         text-decoration: none;
         font-size: 12px;
     }
-
 }
 
 .jumbotron {
@@ -145,13 +146,12 @@ li{
 
     .list-card {
         display: flex;
-        
+
         justify-content: space-between;
         padding: 45px;
         gap: 60px;
         padding-left: 40px;
         text-transform: uppercase;
-
     }
 
     a {
@@ -162,14 +162,73 @@ li{
         font-size: 1rem;
         color: #fff;
 
-        p{
+        p {
             display: flex;
             align-items: center;
             margin: 0;
         }
-        
+    }
+}
 
+.backimage {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-logo {
+    background-image: url(../img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: right;
+}
+
+.links {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    gap: 30px;
+}
+
+.container-footer {
+    display: flex;
+
+    .right {
+        display: flex;
+        gap: 30px;
     }
 
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
 
+    div {
+        .h3-footer {
+            color: white;
+            padding-bottom: 20px;
+        }
+
+        .ul-footer {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+
+            .li-footer {
+                font-size: 0.875rem;
+                font-family: "Open Sans", sans-serif;
+                color: #959595;
+                margin-right: 55px;
+                width: 105%;
+
+                .a-footer {
+                    text-decoration: none;
+                    color: gray;
+                }
+            }
+        }
+    }
 }
